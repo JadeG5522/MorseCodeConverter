@@ -17,5 +17,8 @@ data = input("Welcome to the morse code converter, where your input is converted
              "\nWhat would you like to convert?"
              "\nInput: ").upper()
 for letter in data:
-    print(str(morse_code[letter]))
+    if letter != " ":
+        print(str(morse_code[letter]))
+    else:
+        print(" ")
 
