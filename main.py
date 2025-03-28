@@ -13,8 +13,8 @@ morse_code = {
     '"': '.-..-.', '$': '...-..-', '@': '.--.-.', ' ': '/'
 }
 
-data = input("Welcome to the morse code translator, where your input is translated into morse code."
-             "\nWhat would you like to translate?"
+data = input("Welcome to the morse code converter, where your input is converted into morse code."
+             "\nWhat would you like to convert?"
              "\nInput: ").upper()
 for letter in data:
     print(str(morse_code[letter]))
